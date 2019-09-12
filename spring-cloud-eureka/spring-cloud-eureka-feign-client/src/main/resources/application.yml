@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-cloud-eureka-feign-client
+server:
+  port: 11002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:11000/eureka/
